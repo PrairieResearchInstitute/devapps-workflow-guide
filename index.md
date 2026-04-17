@@ -2,7 +2,7 @@
 
 This guide describes how the PRI DevApps team develops and maintains applications using Git, GitHub, TDX and Visual Studio.
 
-The goal is simple: make changes traceable, reduce risk, and make it easier for more than one person to understand and support the code over time.
+The goal is to make changes traceable, reduce risk and make it easier for more than one person to understand and support the code over time.
 
 ---
 
@@ -12,15 +12,13 @@ Right now, much of the development work happens directly on deployed machines. T
 
 A basic Git-based workflow solves these problems in a practical way. It gives us history, safer changes, a place for review, and a clear connection between a request and the code that implements it.
 
-There is one idea that underpins everything in this guide:
-
-> Production is not the development environment.
+There is one idea that underpins everything in this guide: *Production is not the development environment.*
 
 ---
 
 ## How we work
 
-Every change starts with a TDX ticket. The ticket is where the context lives. It should describe the problem or request clearly, and it should be obvious who owns the work.
+Every change starts with a TDX ticket. The ticket is where the context lives. It should describe the problem or request clearly and it should be obvious who owns the work. While the request might come from a use, the ticket most of the time will be created by someone in the DevApps teams who can articulate what is needed.
 
 From there, the developer creates a branch from `main` that is tied to that ticket. The branch name should make that connection obvious. For example:
 
@@ -30,7 +28,7 @@ tdx-18452-fix-mileage-rounding
 
 Work happens in that branch, in a local working copy of the code. Changes are committed as the work progresses, using short and clear messages that include the TDX number.
 
-Once the change is ready, the branch is pushed to GitHub and a pull request is opened into `main`. The pull request is where the developer explains what changed, why it changed, and how it was tested.
+Once the change is ready, the branch is pushed to GitHub and a pull request is opened into `main`. The pull request is where the developer explains what changed, why it changed and how it was tested (if any testing was done)
 
 Another team member should review the change when possible. This does not need to be heavy process. The point is simply to have a second set of eyes before the change becomes part of the main codebase.
 
