@@ -18,7 +18,7 @@ There is one idea that underpins everything in this guide: *Production is not th
 
 ## How we work
 
-Every change starts with a TDX ticket. The ticket is where the context lives. It should describe the problem or request clearly and it should be obvious who owns the work. While the request might come from a use, the ticket most of the time will be created by someone in the DevApps teams who can articulate what is needed.
+Every change starts with a TDX ticket. The ticket is where the context lives. It should describe the problem or request clearly and it should be obvious who owns the work. While the request might come from a user, the ticket most of the time will be created by someone in the DevApps team who can articulate what is needed.
 
 From there, the developer creates a branch from `main` that is tied to that ticket. The branch name should make that connection obvious. For example:
 
