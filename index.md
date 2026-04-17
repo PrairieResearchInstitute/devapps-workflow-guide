@@ -1,5 +1,7 @@
 # DevApps Workflow Guide
 
+**Status:** Draft version — subject to change as we refine the workflow.
+
 This guide describes how the PRI DevApps team develops and maintains applications using Git, GitHub, TDX and Visual Studio.
 
 The goal is to make changes traceable, reduce risk and make it easier for more than one person to understand and support the code over time.
