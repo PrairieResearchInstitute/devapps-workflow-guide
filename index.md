@@ -1,4 +1,4 @@
-# The PRI DevApps Workflow Guide
+# DevApps Workflow Guide
 
 This guide describes how the PRI DevApps team develops and maintains applications using Git, GitHub, TDX and Visual Studio.
 
